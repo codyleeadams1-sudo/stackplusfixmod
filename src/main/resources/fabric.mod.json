@@ -1,0 +1,17 @@
+{
+	"schemaVersion": 1,
+	"id": "stackplus_bundlefix",
+	"version": "${version}",
+	"name": "StackPlus Bundle Fix",
+	"description": "Companion for StackPlus: stops bundles from crashing the game (Fraction overflow) when huge stack sizes are used.",
+	"authors": ["You"],
+	"license": "MIT",
+	"environment": "*",
+	"mixins": ["stackplus_bundlefix.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": ">=1.21.11 <1.21.12",
+		"java": ">=21",
+		"stackplus": "*"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "chihalu.stackplusfix.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"BundleContentsMixin",
+		"BundleContentsMutableMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	}
+}
